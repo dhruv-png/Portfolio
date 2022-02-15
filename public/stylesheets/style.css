@@ -1,8 +1,36 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("/public/images/download.jpg");
+  background-color: red;
 }
 
 a {
   color: #00B7FF;
+}
+
+footer {
+	background: #333333;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: arial;
+}
+.footerLinks {
+  text-align: center;
+}
+.footerLinks ul {
+ padding: 0;
+   list-style-type: none;
+   margin: 0;
+}
+.footerLinks li {
+ display: inline;
+}
+.footerLinks a {
+ color: #d9d9d9;
+ text-decoration: none;
+ font-size: 22px;
 }
